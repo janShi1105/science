@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="288pt" viewBox="0 0 432 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-07-07T22:01:44.363685</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 432 288 
+L 432 0 
+L 0 0 
+L 0 288 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 54 252 
+L 388.8 252 
+L 388.8 34.56 
+L 54 34.56 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 120.96 88.92 
+L 254.88 88.92 
+L 254.88 56.304 
+L 120.96 56.304 
+z
+" clip-path="url(#pca9b66548f)" style="opacity: 0.3; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 288.36 241.128 
+C 301.6785 241.128 314.453301 237.691372 323.870903 231.574995 
+C 333.288504 225.458617 338.58 217.161864 338.58 208.512 
+C 338.58 199.862136 333.288504 191.565383 323.870903 185.449005 
+C 314.453301 179.332628 301.6785 175.896 288.36 175.896 
+C 275.0415 175.896 262.266699 179.332628 252.849097 185.449005 
+C 243.431496 191.565383 238.14 199.862136 238.14 208.512 
+C 238.14 217.161864 243.431496 225.458617 252.849097 231.574995 
+C 262.266699 237.691372 275.0415 241.128 288.36 241.128 
+z
+" clip-path="url(#pca9b66548f)" style="fill: #0000ff; opacity: 0.3; stroke: #0000ff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 104.22 219.384 
+L 171.18 165.024 
+L 120.96 121.536 
+z
+" clip-path="url(#pca9b66548f)" style="fill: #008000; opacity: 0.5; stroke: #008000; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mf03d8c8813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf03d8c8813" x="54" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 0.0 -->
+      <g transform="translate(45.796875 266.890625)scale(0.1 -0.1)">
+       <defs>
+        <path id="Osaka-30" d="M 2125 -150 
+Q 1400 -150 875 500 
+Q 350 1150 350 2425 
+Q 350 3725 875 4350 
+Q 1400 5000 2125 5000 
+Q 2850 5000 3375 4350 
+Q 3900 3725 3900 2425 
+Q 3900 1150 3375 500 
+Q 2850 -150 2125 -150 
+z
+M 2125 350 
+Q 2700 350 3000 950 
+Q 3300 1525 3300 2425 
+Q 3300 3325 3000 3925 
+Q 2700 4500 2125 4500 
+Q 1550 4500 1275 3925 
+Q 975 3325 975 2425 
+Q 975 1525 1275 950 
+Q 1550 350 2125 350 
+z
+" transform="scale(0.015625)"/>
+        <path id="Osaka-2e" d="M 550 0 
+L 550 825 
+L 1375 825 
+L 1375 0 
+L 550 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-30" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mf03d8c8813" x="120.96" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 0.2 -->
+      <g transform="translate(112.756875 266.890625)scale(0.1 -0.1)">
+       <defs>
+        <path id="Osaka-32" d="M 1150 525 
+L 3675 525 
+L 3675 0 
+L 550 0 
+L 550 525 
+Q 550 850 725 1175 
+Q 900 1550 1100 1800 
+Q 1325 2075 1950 2525 
+Q 2625 3050 2800 3300 
+Q 2950 3575 2950 3800 
+Q 2950 4075 2725 4300 
+Q 2450 4500 2050 4500 
+Q 1650 4500 1450 4350 
+Q 1250 4200 1250 3975 
+L 675 3975 
+Q 675 4375 1050 4700 
+Q 1425 5000 2075 5000 
+Q 2900 5000 3225 4675 
+Q 3575 4325 3575 3800 
+Q 3575 3400 3350 3050 
+Q 3125 2750 2275 2150 
+Q 1150 1375 1150 650 
+L 1150 525 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-32" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mf03d8c8813" x="187.92" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 0.4 -->
+      <g transform="translate(179.716875 266.890625)scale(0.1 -0.1)">
+       <defs>
+        <path id="Osaka-34" d="M 3925 1950 
+L 3925 1475 
+L 3250 1475 
+L 3250 0 
+L 2675 0 
+L 2675 1475 
+L 350 1475 
+L 350 1950 
+L 2675 4850 
+L 3250 4850 
+L 3250 1950 
+L 3925 1950 
+z
+M 2675 1950 
+L 2675 4075 
+L 975 1950 
+L 2675 1950 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-34" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mf03d8c8813" x="254.88" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 0.6 -->
+      <g transform="translate(246.676875 266.890625)scale(0.1 -0.1)">
+       <defs>
+        <path id="Osaka-36" d="M 1150 2425 
+L 1150 2250 
+Q 1675 2950 2425 2950 
+Q 3025 2950 3425 2550 
+Q 3800 2150 3800 1425 
+Q 3800 800 3375 300 
+Q 2975 -150 2300 -150 
+Q 1650 -150 1175 325 
+Q 550 950 550 2400 
+Q 550 3725 1100 4350 
+Q 1625 5000 2425 5000 
+Q 3025 5000 3375 4725 
+Q 3675 4475 3675 4075 
+L 3100 4075 
+Q 3100 4275 2950 4375 
+Q 2750 4500 2450 4500 
+Q 2050 4500 1775 4275 
+Q 1475 4025 1325 3500 
+Q 1150 3000 1150 2425 
+z
+M 2300 350 
+Q 2700 350 2950 650 
+Q 3200 900 3200 1450 
+Q 3200 1950 2950 2200 
+Q 2675 2475 2275 2475 
+Q 1875 2475 1600 2175 
+Q 1300 1875 1300 1400 
+Q 1300 950 1600 650 
+Q 1875 350 2300 350 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-36" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mf03d8c8813" x="321.84" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 0.8 -->
+      <g transform="translate(313.636875 266.890625)scale(0.1 -0.1)">
+       <defs>
+        <path id="Osaka-38" d="M 2850 2675 
+Q 3350 2475 3575 2100 
+Q 3800 1725 3800 1325 
+Q 3800 700 3400 300 
+Q 3000 -150 2125 -150 
+Q 1250 -150 875 300 
+Q 475 700 475 1325 
+Q 475 1775 725 2100 
+Q 925 2475 1400 2675 
+Q 675 3050 675 3750 
+Q 675 4125 850 4375 
+Q 1075 4675 1375 4850 
+Q 1725 5000 2125 5000 
+Q 2775 5000 3200 4650 
+Q 3600 4275 3600 3750 
+Q 3600 3050 2850 2675 
+z
+M 2125 2900 
+Q 2500 2900 2750 3150 
+Q 3000 3375 3000 3725 
+Q 3000 4050 2750 4275 
+Q 2500 4500 2125 4500 
+Q 1800 4500 1525 4275 
+Q 1275 4050 1275 3725 
+Q 1275 3400 1525 3150 
+Q 1750 2900 2125 2900 
+z
+M 2125 2425 
+Q 1700 2425 1400 2125 
+Q 1075 1800 1075 1350 
+Q 1075 925 1375 650 
+Q 1675 350 2125 350 
+Q 2600 350 2900 650 
+Q 3175 925 3175 1350 
+Q 3175 1800 2875 2125 
+Q 2575 2425 2125 2425 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-38" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mf03d8c8813" x="388.8" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 1.0 -->
+      <g transform="translate(380.596875 266.890625)scale(0.1 -0.1)">
+       <defs>
+        <path id="Osaka-31" d="M 1925 4850 
+L 2500 4850 
+L 2500 0 
+L 1925 0 
+L 1925 4250 
+L 950 3850 
+L 950 4400 
+L 1925 4850 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Osaka-31"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-30" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="m5151ac361b" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5151ac361b" x="54" y="252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 0.0 -->
+      <g transform="translate(30.59375 255.945312)scale(0.1 -0.1)">
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-30" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5151ac361b" x="54" y="208.512" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 0.2 -->
+      <g transform="translate(30.59375 212.457313)scale(0.1 -0.1)">
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-32" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5151ac361b" x="54" y="165.024" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 0.4 -->
+      <g transform="translate(30.59375 168.969313)scale(0.1 -0.1)">
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-34" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5151ac361b" x="54" y="121.536" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 0.6 -->
+      <g transform="translate(30.59375 125.481312)scale(0.1 -0.1)">
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-36" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m5151ac361b" x="54" y="78.048" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 0.8 -->
+      <g transform="translate(30.59375 81.993313)scale(0.1 -0.1)">
+       <use xlink:href="#Osaka-30"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-38" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m5151ac361b" x="54" y="34.56" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 1.0 -->
+      <g transform="translate(30.59375 38.505313)scale(0.1 -0.1)">
+       <use xlink:href="#Osaka-31"/>
+       <use xlink:href="#Osaka-2e" x="66.796875"/>
+       <use xlink:href="#Osaka-30" x="97.265625"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 54 252 
+L 54 34.56 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 388.8 252 
+L 388.8 34.56 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 54 252 
+L 388.8 252 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 54 34.56 
+L 388.8 34.56 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pca9b66548f">
+   <rect x="54" y="34.56" width="334.8" height="217.44"/>
+  </clipPath>
+ </defs>
+</svg>
