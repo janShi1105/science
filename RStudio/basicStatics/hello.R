@@ -13,12 +13,5 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-varp <- function(x) {
-    標本分散 <- var(x)*(length(x)-1)/length(x)
-    標本分散
-  }
-x <- c(10, 13, 8, 15, 8)
-print(x)
-var(x)
-varp(x)
-
+指導法 <- c('C', 'B', 'B', 'A', 'B', 'C', 'A', 'D', 'D', 'D', 'A', 'A', 'A', 'C', 'B', 'D','C', 'C', 'B', 'D'  )
+指導法
