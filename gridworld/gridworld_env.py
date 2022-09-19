@@ -33,7 +33,7 @@ def draw_object(coords_list):
         obj_transform.set_translation(*coords_list[0])
         obj.set_color(0.2, 0.2, 0.2)
     elif len(coords_list) == 3:
-        obj = rendering.FilledPolygon(*coords_list)
+        obj = rendering.FilledPolygon(coords_list)
         obj.set_color(0.9, 0.6, 0.2)
     elif len(coords_list) > 3:
         obj = rendering.FilledPolygon(coords_list)
@@ -93,7 +93,7 @@ class GridWorldEnv(discrete.DiscreteEnv):
         screen_height = (self.num_rows  + 2) * CELL_SIZE
         self.viewer = rendering.Viewer(screen_width, screen_height)
         all_objects = []
-        bp_list = [(CELL_SIZE-MARGIN, CELL_SIZE + MARGIN), (screen_width -CELL_SIZE+ MARGIN, CELL_SIZE -MARGIN), (screen_width - CELL_SIZE + MARGIN, screen_height-CELL_SIZE + MARGIN),
+        bp_list = [(CELL_SIZE-MARGIN, CELL_SIZE - MARGIN), (screen_width -CELL_SIZE+ MARGIN, CELL_SIZE -MARGIN), (screen_width - CELL_SIZE + MARGIN, screen_height-CELL_SIZE + MARGIN),
         (CELL_SIZE -MARGIN, screen_height-CELL_SIZE+ MARGIN)]
         border = rendering.PolyLine(bp_list, True)
         border.set_linewidth(5)
@@ -101,7 +101,7 @@ class GridWorldEnv(discrete.DiscreteEnv):
 
         for col in range(self.num_cols + 1):
             x1, y1 = (col + 1)*CELL_SIZE, CELL_SIZE
-            x2, y2 = (col + 1)*CELL_SIZE, (self.num_row+1) *CELL_SIZE
+            x2, y2 = (col + 1)*CELL_SIZE, (self.num_rows+1) *CELL_SIZE
             line = rendering.PolyLine([(x1,y1), (x2,y2)], False)
             all_objects.append(line)
 
@@ -113,7 +113,7 @@ class GridWorldEnv(discrete.DiscreteEnv):
 
         for cell in trap_cells:
             trap_coords = get_coords(*cell, loc='center')
-            all_objects.appeend(draw_object([trap_coords]))
+            all_objects.append(draw_object([trap_coords]))
 
         gold_coords = get_coords(*gold_cell, loc='interior_triangle')
         all_objects.append(draw_object(gold_coords))
@@ -139,8 +139,8 @@ class GridWorldEnv(discrete.DiscreteEnv):
         x_coord = self.s % self.num_cols 
         y_coord = self.s // self.num_cols
         x_coord = (x_coord + 0) * CELL_SIZE
-        y_coord = (y_coord + 0) + CELL_SIZE
-        self.agend_trans.set_translation(x_coord, y_coord)
+        y_coord = (y_coord + 0) * CELL_SIZE
+        self.agent_trans.set_translation(x_coord, y_coord)
         rend = self.viewer.render(return_rgb_array=(mode=='rgb_array'))
         time.sleep(sleep_time)
         return rend
@@ -153,11 +153,12 @@ class GridWorldEnv(discrete.DiscreteEnv):
 if __name__ =='__main__':
     env = GridWorldEnv(5,6)
     for i in range(1):
+        s = env.reset()
         env.render(mode='human', done=False)
         while True:
             action = np.random.choice(env.nA)
             res = env.step(action)
-            print('Action ', env.S, action, '-->', res)
+            print('Action ', env.s, action, '-->', res)
             env.render(mode='human', done=res[2])
             if res[2]:
                 break
