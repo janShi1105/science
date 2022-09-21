@@ -11,3 +11,24 @@ static1_woman <- c(11,6,11,9,7,5,8,7,7,9)
 static_A <- c(54,55,52,48,50,38,41,40,53,52)
 static_B <- c(67,63,50,60,61,69,43,58,36,29)
 
+stat_test1 <- c(6,10,6,10,5,3,5,9,3,3,11,6,11,9,7,5,8,7,7,9)
+stat_test2 <- c(10,13,8,15,8,6,9,10,7,3,18,14,18,11,12,5,7,12,7,7)
+static <- c("好き","好き","好き","好き","嫌い","嫌い","嫌い","嫌い","嫌い","嫌い","好き","好き","好き","嫌い","好き","嫌い","嫌い","嫌い","嫌い","嫌い")
+
+static_like <- numeric(length=8)
+static_not_like <- numeric(length=12)
+like = 1
+not_like=1
+
+phyco_man <- c(13,14,7,12,10,6,8,15,4,14)
+phyco_woman <- c(9,6,10,12,5,12,8,8,12,15)
+
+for(i in 1:20){
+   if(static[i] =="好き"){
+     static_like[like] = stat_test1[i]
+     like = like + 1
+     }else{
+       static_not_like[not_like] = stat_test1[i]
+       not_like = not_like + 1
+       }
+   }
