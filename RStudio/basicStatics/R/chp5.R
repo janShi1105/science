@@ -23,6 +23,10 @@ not_like=1
 phyco_man <- c(13,14,7,12,10,6,8,15,4,14)
 phyco_woman <- c(9,6,10,12,5,12,8,8,12,15)
 
+
+before <- c(61,50,41,55,51,48,46,55,65,70)
+after <- c(59, 48,33,54,47,52,38,50,64,63)
+
 for(i in 1:20){
    if(static[i] =="好き"){
      static_like[like] = stat_test1[i]
