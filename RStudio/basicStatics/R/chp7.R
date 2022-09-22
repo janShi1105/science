@@ -24,3 +24,15 @@ person1 <- factor(rep(c('muramatsu', 'kawasaki', 'iguchi', 'matsunaka', 'jojima'
 conditionA1 <- rep(c('muramatsu', 'kawasaki', 'iguchi', 'muranaka', 'jojima'),3)
 conditionA2 <- rep(c('saito', 'wada', 'terahara', 'sugiuchi', 'niigaki'),3)
 person2 <- factor(c(conditionA1, conditionA2))
+
+row <- c(75,61,68,58,66,55,65,63)
+literal <- c(62,60,66,63,55,53,59,63)
+science <- c(65,60,78,52,59,66,73,64)
+mechanic <- c(52,59,44,67,47,53,58,49)
+
+all_data <- c(row, literal, science, mechanic)
+faculty <- factor(c(rep('row', 8), rep('literal', 8), rep('science', 8), rep('machine', 8)))
+
+all_data2 <- c(51,66,70,75,73,62,55,47,54,55,39,60,62,56,55,37,47,60,62,53,50)
+label <- factor(c(rep('lecture', 7), rep('test', 7), rep('practice', 7)))
+student <- factor(c(rep(1:7, 3)))
