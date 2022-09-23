@@ -11,3 +11,4 @@ mother <- rnorm(n=19, mean=155.94737, sd=4.63649)
 daughter <- 切片 + 父係数 * father + 母係数 * mother + 残差
 chap15data <- data.frame(cbind(daughter, father, mother))
 
+
