@@ -15,3 +15,6 @@ uniq_m <- matrix(rnorm(5*n), nrow=5)
 subjects <- round(t(load_m%*%factor_m + uniq%*%uniq_m)*10+50)
 
 colnames(subjects) <- c("J", "S", "math", "sci", "E")
+
+model.coop <- specify.model()
+mother_val -> y1, b11, NA
