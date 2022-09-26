@@ -1,8 +1,7 @@
 library(sem)
-coop <- read.moments
-coop <- read.moments(diag=FALSE, names=as.character(paste("y",1:12, sep="")))
+coop <- readMoments(diag=FALSE, names=as.character(paste("y",1:12, sep="")))
 .160
-.302 .341
+.302  .341
 .461 .400 .372
 .299 .404 .552 .302
 .152 .320 .476 .225 .708
