@@ -1,0 +1,10 @@
+* installing *source* package ‘basicStatics’ ...
+** using staged installation
+** R
+Error in parse(outFile) : 
+  /Users/kazuyaaoki/Desktop/programming/science/RStudio/basicStatics.Rcheck/00_pkg_src/basicStatics/R/chp12.R:17:17:  予想外の ',' です 
+16: model.coop <- specify.model()
+17: mother_val -> y1,
+                    ^
+ERROR: unable to collate and parse R files for package ‘basicStatics’
+* removing ‘/Users/kazuyaaoki/Desktop/programming/science/RStudio/basicStatics.Rcheck/basicStatics’
