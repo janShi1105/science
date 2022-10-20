@@ -1,0 +1,11 @@
+x <- runif(10000,0,1)
+y <- runif(10000,0,2)
+plot(x,y,col=ifelse(x^2 + (y-1)^2 <= 1, ifelse((x-2)^2 + y^2 <= 4, 'black', 'white'), 'white'),pch=20, asp=1, xlim=c(0,2), ylim=c(0,2))
+rect(0,0,2,2)
+curve(+sqrt(4-(x-2)^2),xlim=c(-2,2), ylim=c(-4,4), add=TRUE)
+curve(-sqrt(4-(x-2)^2),xlim=c(-2,2), ylim=c(-4,4), add=TRUE)
+curve(1+sqrt(1-x^2),xlim=c(-1,1),ylim=c(-1,1) ,add=TRUE)
+curve(1-sqrt(1-x^2), xlim=c(-1,1), ylim=c(-1,1), add=TRUE)
+polygon(c(0,2,4/5), c(1,0,8/5))
+S <- 2 * sum((x^2 + (y-1)^2 < 1)&((x-2)^2 + y^2 <4))/10000
+print(S)
