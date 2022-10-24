@@ -1,0 +1,6 @@
+x <-rweibull(1000, 8,3)
+xm <- data.frame(x)
+print(xm)
+fitdistr(x, densfun = "weibull")
+hist(x,prob=TRUE)
+#curve(dweibull(x,shape=8.))

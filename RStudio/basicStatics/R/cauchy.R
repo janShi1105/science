@@ -1,0 +1,5 @@
+ave <- numeric(10000)
+x <- rcauchy(10000)
+for(n in 1:10000) ave[n] <- mean(x[1:n])
+plot(1:10000,ave)
+abline(h=0)
