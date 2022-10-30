@@ -88,5 +88,15 @@ history_coef <- df_results %>%
 
 OVB <- history_coef * treatment_coef[3]
 coef_gap <- treatment_coef[1] - treatment_coef[2]
-OVB
-coef_gap
+
+cor_visit_treatment <- lm(
+  data = biased_data,
+  formula = treatment ~ visit + channel + recency + history
+) %>%
+  tidy()
+
+bad_control_reg <- lm(
+  data = biased_data,
+  formula = spend ~ treatment + channel + recency + history + visit
+) %>%
+  tidy()
