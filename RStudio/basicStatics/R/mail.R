@@ -1,0 +1,21 @@
+male_data <- email_data %>%
+  filter(segment %in% c('Mens E-Mail', 'No E-Mail')) %>%
+  mutate(treatment = if_else(segment == 'Mens E-Mail', 1,0),
+         history_log = log(history))
+
+threshold_value <- 5.5
+
+rdd_data <- male_data %>%
+  mutate(history_log_grp = round(history_log/0.1,0)*0,1) %>%
+  filter(((history_log > threshold_value) & (segment == 'Mens E-Mail')) | (history_log <= threshold_value) & (segment == 'No E-Mail'))
+
+rdd_data_table <- rdd_data %>%
+  group_by(treatment) %>%
+  summarise(count = n(), visit_rate = mean(visit))
+
+rdd_lm_reg <- rdd_data %>%
+  mutate(treatment = if_else(segment == 'Mens E-Mail', 1, 0)) %>%
+  lm(data = ., formula = visit ~ treatment + history_log) %>%
+  tidy() %>%
+  filter(term == 'treatment')
+
