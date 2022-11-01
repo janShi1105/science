@@ -19,3 +19,16 @@ rdd_lm_reg <- rdd_data %>%
   tidy() %>%
   filter(term == 'treatment')
 
+nonlinear_rdd_data <- rdd_data(y = rdd_data$visit,
+                               x = rdd_data$history_log,
+                               cutpoint = 5.5)
+
+nonlinear_rdd_ord4 <- rdd_reg_lm(rdd_object = nonlinear_rdd_data, order = 4)
+
+rdd_result <- RDestimate(data = rdd_data,
+                         formula = visit ~ history_log,
+                         cutpoint = 5.5)
+
+summary(rdd_result)
+
+
