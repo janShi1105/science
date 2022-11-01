@@ -37,3 +37,9 @@ W.out <- weightit(treatment ~ recency + history_segment + channel + zip_code,
                   ps = ml_male_df$ps,
                   method = 'ps',
                   estimand = 'ATE')
+
+IPW_result <- ml_male_df %>%
+  lm(data = .,
+     spend ~ treatment,
+     weights = W.out$weights) %>%
+  tidy()
