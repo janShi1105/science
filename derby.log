@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Sep 24 23:46:14 JST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-c7a7-c002-00000202e2d8 
+on database directory /Users/kazuyaaoki/Desktop/programming/science/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 
+Loaded from file:/usr/local/Cellar/apache-spark/3.5.0/libexec/jars/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.8+7
+user.dir=/Users/kazuyaaoki/Desktop/programming/science
+os.name=Mac OS X
+os.arch=x86_64
+os.version=13.4.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

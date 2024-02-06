@@ -1,0 +1,22 @@
+import pandas as pd
+from  tqdm import tqdm
+
+def read_csv_get_dummies(path):
+    print('read_csv_get_dummies')
+    df = pd.read_csv(path)
+    
+    for col in tqdm(df.columns.values):
+        if 'cat' in col:
+            print(f'categorical: {col}')
+            tmp = pd.get_dummies(df[col])
+            for col2 in tmp.columns.values:
+                df[col2] = tmp[col2].values
+            df = df.drop(col, axis = 1)
+    print('read_csv_get_dummies_end')
+    return df
+
+def read_csv(path):
+    print('read_csv')
+    df = pd.read_csv(path)
+    print('read_csv_end')
+    return df

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.spark.network.client.TransportClientFactorySuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.297 s -- in org.apache.spark.network.client.TransportClientFactorySuite
